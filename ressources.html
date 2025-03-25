@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title></title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <meta name="robots" content="noindex">
+ </head>
+
+<body>
+<header id="site-header" class="fixed-top">
+  <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark stroke">
+          <h1><a class="navbar-brand" href="index.html">
+              Votre nom et prénom
+              </a></h1>
+
+          <button class="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse"
+              data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
+              <span class="navbar-toggler-icon fa icon-close fa-times"></span>
+
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+              <ul class="navbar-nav ml-auto mr-5">
+                  <li class="nav-item active">
+                      <a class="nav-link" href="index.html">Accueil <span class="sr-only">(current)</span></a>
+                  </li>
+
+                  <li class="nav-item @@services__active">
+                      <a class="nav-link" href="ressources.html">Ressources</a>
+                  </li>
+
+                  <li class="nav-item dropdown @@pages__active">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Pages <span class="fa fa-angle-down"></span>
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="html5.html">HTML5 - CSS3</a>
+                          <a class="dropdown-item" href="Javascript.html">Javascript</a>
+                           <a class="dropdown-item" href="gsb.html">GSB</a>
+                          <a class="dropdown-item" href="........"> ......</a>
+                      </div>
+                  </li>
+
+
+              </ul>
+          </div>
+
+
+          <div class="mobile-position">
+              <nav class="navigation">
+                  <div class="theme-switch-wrapper">
+                      <label class="theme-switch" for="checkbox">
+                          <input type="checkbox" id="checkbox">
+                          <div class="mode-container py-1">
+                              <i class="gg-sun"></i>
+                              <i class="gg-moon"></i>
+                          </div>
+                      </label>
+                  </div>
+              </nav>
+          </div>
+
+      </nav>
+  </div>
+</header>
+
+<section class="w3l-about-breadcrumb">
+    <div class="breadcrumb-bg breadcrumb-bg-about py-sm-5 pt-5 pb-4"></div>
+</section>
+
+<section class="text-11 py-5">
+    <div class="text11 py-lg-5 py-md-4">
+        <div class="container">
+
+            <div class="text11-content">
+                <h1 class="">Les sites ressources</h1>
+
+                             <h4 class="">OpenClassRooms</h4>
+                               <p class="mt-4 mb-4">
+                                Lien internet : <a href="https://openclassrooms.com/fr/" target="_blank">Open ClassRooms</a> <br>
+                                OpenClassrooms est un site web de formation en ligne, créé en 1999 sous le nom de Site du Zéro. Il propose à ses membres des cours certifiants et des parcours débouchant sur des métiers en croissance.
+                              </p>
+                             <h4 class="">NetAcad</h4>
+                              <p class="mt-4 mb-4">
+                                Lien internet : <a href="https://www.netacad.com/" target="_blank">CISCO NetAcad</a><br>
+                                Cisco Networking Academy est un programme mondial d'éducation dans le domaine de l'IT et de la cybersécurité.
+                             </p>
+                             <h4 class="">Youtube</h4>
+                               <p class="mt-4 mb-4">
+                                Lien internet : <a href="https://www.youtube.com" target="_blank"><span style="color: #CC0000">YouTube</span></a> <br>
+                                Site web d’hébergement de vidéos et un média social sur lequel les utilisateurs peuvent envoyer, regarder, commenter, évaluer et partager des vidéos en streaming .
+
+                            </p>
+                </div>
+
+
+        </div>
+    </div>
+</section>
+
+
+  <section class="w3l-footer-29-main">
+    <section class="w3l-copyright text-center">
+      <div class="container">
+        <p class="copy-footer-29">© Portfolio Parcours de Certification Complémentaire |  votre nom et prénom</p>
+      </div>
+      <button onclick="topFunction()" id="movetop" title="Go to top">
+        &#10548;
+      </button>
+      <script>
+
+        window.onscroll = function () {
+          scrollFunction()
+        };
+
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("movetop").style.display = "block";
+          } else {
+            document.getElementById("movetop").style.display = "none";
+          }
+        }
+
+
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+      </script>
+    </section>
+  </section>
+
+
+  <script src="assets/js/jquery-3.3.1.min.js"></script>
+
+  <script src="assets/js/theme-change.js"></script>
+
+<script src="assets/js/circles.js"></script>
+
+
+<script src="assets/js/owl.carousel.js"></script>
+
+
+<script>
+  $(document).ready(function () {
+    $("#owl-demo1").owlCarousel({
+      loop: true,
+      nav: false,
+      margin: 50,
+      responsiveClass: true,
+      responsive: {
+        0: {
+          items: 1,
+          nav: false
+        },
+        992: {
+          items: 2,
+          nav: false
+        }
+      }
+    })
+  })
+</script>
+
+  <script>
+    const items = document.querySelectorAll(".accordion button");
+
+    function toggleAccordion() {
+      const itemToggle = this.getAttribute('aria-expanded');
+
+      for (i = 0; i < items.length; i++) {
+        items[i].setAttribute('aria-expanded', 'false');
+      }
+
+      if (itemToggle == 'false') {
+        this.setAttribute('aria-expanded', 'true');
+      }
+    }
+
+    items.forEach(item => item.addEventListener('click', toggleAccordion));
+  </script>
+
+  <script>
+    $(window).on("scroll", function () {
+      var scroll = $(window).scrollTop();
+
+      if (scroll >= 80) {
+        $("#site-header").addClass("nav-fixed");
+      } else {
+        $("#site-header").removeClass("nav-fixed");
+      }
+    });
+
+
+    $(".navbar-toggler").on("click", function () {
+      $("header").toggleClass("active");
+    });
+    $(document).on("ready", function () {
+      if ($(window).width() > 991) {
+        $("header").removeClass("active");
+      }
+      $(window).on("resize", function () {
+        if ($(window).width() > 991) {
+          $("header").removeClass("active");
+        }
+      });
+    });
+  </script>
+
+  <script>
+    $(function () {
+      $('.navbar-toggler').click(function () {
+        $('body').toggleClass('noscroll');
+      })
+    });
+  </script>
+
+  <script src="assets/js/bootstrap.min.js"></script>
+</body>
+</html>
