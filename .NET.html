@@ -41,7 +41,7 @@
                 Projets <span class="fa fa-angle-down"></span>
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="dotnet.html"> Projet .NET - GSBZonesStockages</a>
+                  <a class="dropdown-item" href=".NET.html"> Projet .NET - GSBZonesStockages</a>
                   <a class="dropdown-item" href="symfony.html"> Projet Symfony - GSBVeto</a>
                   <a class="dropdown-item" href="gsbfrais.html">Projet GsbFrais</a>
                   <a class="dropdown-item" href="gsb.html">Projet Infrastructure (GSB)</a>
@@ -102,15 +102,20 @@
   <section class="text-11 py-5">
     <div class="text11 py-lg-5 py-md-4">
       <div class="container">
-        <p style="text-align: center"><img src="assets/images/symfony.jpg" class="img-fluid radius-image-full"
+        <p style="text-align: center"><img src="assets/images/dotnet.png" class="img-fluid radius-image-full"
             alt="" /><br><br> </p>
         <div class="text11-content">
-          <h1 class="" style="">Projet GSBVETO - SOCIÉTÉ GSB</h1>
+          <h1 class="">Projet .NET</h1>
           <br>
           <h3 class="post-content-title mb-3"><u>Description</u> </h3>
-          <p class="mb-4">Application web intranet permettant la gestion des relations avec les vétérinaires, comprenant les suivis, les produits, les objectifs, les activités.
+          <p class="mb-4">Application console permettant la gestion de contrôles des zones de stockages GSB, utilisant une
+            architecture de couche de métier logiques.
           </p><br>
-          <p class="mb-4">Il y a 3 profils d'utilisateurs, utilisateur, manageur, et admin 
+          <p class="mb-4">Les utilisateurs de l'application peuvent consulter, ainsi que gérer les contrôles donc,
+            ajouter, modifier ou supprimer.
+          </p><br>
+          <p class="mb-4">Un contrôle est constitué d'un libellé,d'un résumé, d'une date, du nom de l'entreprise, d'un
+            type de contrôle et le nom de la zone de stockage.
           </p><br>
 
           <h3 class="post-content-title mb-3"><u>Objectifs</u> </h3>
@@ -118,7 +123,7 @@
             <ol>
               <li> Prendre connaissance d'un cahier des charges</li>
               <li> Proposer une solution</li>
-              <li> Apprendre à faire des CRUD </li>
+              <li> Travailler en équipe</li>
               <li> Travailler en autonomie </li>
               <li> Présentation orale du projet</li>
             </ol>
@@ -135,68 +140,54 @@
           <h3 class="post-content-title mb-3"><u>Outils utilisés</u> </h3>
           <div class="text-list mb-4">
             <ol>
-              <li> Microsoft Visual Studio Code</li>
-              <li> Docker</li>
+              <li> Microsoft Visual Studio</li>
+              <li> SQL server management studio</li>
               <li> GitHub, StarUML
 
-              
+
 
               </li>
             </ol>
           </div>
-          
+
           <h3 class="post-content-title mb-3"><u>Quelques notions à travers des images</u> </h3>
 
-          <h4 class="post-content-title mb-3"><span style="color: #CC0000"><u>Profils Utilisateurs</u></span></h4>
-          <p class="mb-4">L'application web GsbVeto possède 3 types d'utilisateurs : 
-          </p>
-          <div class="text-list mb-4">
-            <ol>
-              <li> Utilisateur</li>
-              <li> Manageur</li>
-              <li> Admin</li>
-            </ol>
-          </div>
-
-          
-
-          
-
-          </li>
-          <div class="single-post-image mb-4">
-            <img src="assets/images/diagrammeUtil.jpg" class="img-fluid w-100 radius-image" alt="image">
-          </div>
-
-
-          <h4 class="post-content-title mb-3"><span style="color: #CC0000"><u>Liste des vétérinaires</u></span></h4>
+          <h4 class="post-content-title mb-3"><span style="color: #CC0000"><u>Modèles conceptuels de données</u></span></h4>
           <p class="mb-4">
           </p>
           <div class="single-post-image mb-4">
-            <img src="assets/images/Vetos.jpg" class="img-fluid w-100 radius-image" alt="image">
-            
+            <img src="assets/images/MCD.jpg" class="img-fluid w-100 radius-image" alt="image">
+            <img src="assets/images/MCD2.jpg" class="img-fluid w-100 radius-image" alt="image">
           </div>
           
 
-          <h4 class="post-content-title mb-3"><span style="color: #CC0000"><u>Ajouter un vétérinaire</u></span></h4>
+          <h4 class="post-content-title mb-3"><span style="color: #CC0000"><u>Liste des contrôles</u></span></h4>
           <p class="mb-4">
           </p>
           <div class="single-post-image mb-4">
-            <img src="assets/images/AddVeto1.jpg" class="img-fluid w-100 radius-image" alt="image">
-            <img src="assets/images/AddVeto2.jpg" class="img-fluid w-100 radius-image" alt="image">
+            <img src="assets/images/ListCtrl.jpg" class="img-fluid w-100 radius-image" alt="image">
           </div>
 
-          <h4 class="post-content-title mb-3"><span style="color: #CC0000"><u>Fiche détail d'un vétérinaire</u></span></h4>
+          <h4 class="post-content-title mb-3"><span style="color: #CC0000"><u>Formulaire d'ajout d'un
+                contrôle</u></span></h4>
           <p class="mb-4">
           </p>
           <div class="single-post-image mb-4">
-            <img src="assets/images/detailVeto.jpg" class="img-fluid w-100 radius-image" alt="image">
+            <img src="assets/images/AjoutCtrl.jpg" class="img-fluid w-100 radius-image" alt="image">
           </div>
 
+          <h4 class="post-content-title mb-3"><span style="color: #CC0000"><u>Formulaire pour gérer un
+                contrôle</u></span></h4>
+          <p class="mb-4">
+          </p>
+          <div class="single-post-image mb-4">
+            <img src="assets/images/EditCtrl.jpg" class="img-fluid w-100 radius-image" alt="image">
+          </div>
 
           
 
           <h4 class="post-content-title mb-3"><span style="color: #CC0000"><u>Fichiers</u></span></h4>
-          <p class="mb-4"><a href="assets/pdf/CahierDesChargesGsbVeto.pdf">
+          <p class="mb-4"><a href="assets/pdf/CahierDesChargesDotnet.pdf">
             <img src="assets/images/pdf.jpg" alt="PDF Icon" class="pdf-icon"> Cahier-des-charges
         </a></p>
           
